@@ -1,0 +1,66 @@
+<% layout('layout/boilerplate.ejs') -%>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+        }
+        .quiz-card {
+            transition: transform 0.2s;
+        }
+        .quiz-card:hover {
+            transform: scale(1.05);
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="mt-3"style="text-align: center;">Categories</h1>
+    <!-- Quiz List -->
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Quiz Card 1 -->
+            <div class="col">
+                <div class="card quiz-card h-100" style="border-radius: 14px;">
+                    <img src="https://t4.ftcdn.net/jpg/02/14/56/75/360_F_214567514_hGbTMUq06pJIGKiXA248l43E3hU9Q08x.jpg" class="card-img-top h-100" alt="Physics Quiz">
+                    <div class="card-body" style="background-color: #ffffff;color: #4a90e2; border-radius: 0  0 14px 14px;">
+                        <h5 class="card-title">Physics Quiz</h5>
+                        <p class="card-text">Test your knowledge of fundamental physics concepts, including motion, energy, and forces.</p>
+                        <a href="/quiz" class="btn btn-primary">Start Quiz</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Quiz Card 2 -->
+            <div class="col">
+                <div class="card quiz-card h-100" style="border-radius: 14px;">
+                    <img src="https://www.thoughtco.com/thmb/6MsMmUK27akFhb8i89kj95J5iko=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-545286316-433dd345105e4c6ebe4cdd8d2317fdaa.jpg" class="card-img-top h-100" alt="Chemistry Quiz">
+                    <div class="card-body" style="background-color: #ffffff;color: #4a90e2; border-radius: 0  0 14px 14px;">
+                        <h5 class="card-title">Chemistry Quiz</h5>
+                        <p class="card-text">Explore the world of atoms, molecules, and chemical reactions with this quiz.</p>
+                        <a href="/quiz" class="btn btn-primary">Start Quiz</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Quiz Card 3 -->
+            <div class="col">
+                <div class="card quiz-card h-100" style="border-radius:14px;">
+                    <img src="https://19997575.fs1.hubspotusercontent-na1.net/hubfs/19997575/The%20Shape%20of%20DNA%20was%20inspired%20by%20Dream.jpg" class="card-img-top  h-100" alt="Biology Quiz">
+                    <div class="card-body" style="background-color: #ffffff;color: #4a90e2; border-radius: 0  0 14px 14px;">
+                        <h5 class="card-title">Biology Quiz</h5>
+                        <p class="card-text">Dive into the study of life, from cells to ecosystems, with this biology quiz.</p>
+                        <a href="/quiz" class="btn btn-primary">Start Quiz</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Quiz Card 4 -->
+
+            </div>
+        </div>
+    </div>
+
+</html>

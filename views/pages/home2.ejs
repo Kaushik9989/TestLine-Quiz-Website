@@ -1,0 +1,112 @@
+<% layout('layout/boilerplate.ejs') -%>
+<body style="background-color: #f0f4f8; color: #2d3748;">
+  <div class="container mt-5">
+    <!-- Start Quiz Section -->
+    <div class="section text-center p-5 scroll-section" style="background-color: #ffffff; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); min-height: 450px; display: flex; flex-direction:column;justify-content: center; ">
+        <h1 class="text-primary" style="color: #4a90e2;">🚀 Welcome to the Quiz Game!</h1>
+      <p class="text-secondary" style="color: #4a5568;">Test your knowledge and challenge yourself.</p>
+      <a href="/category" class="btn btn-lg" style="background-color: #4a90e2; color: white; border: none">🎯 Start Quiz</a>
+    </div>
+
+    <!-- Categories Section -->
+    <div class="section text-center p-5 scroll-section" style="background-color: #ffffff; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);min-height: 450px;">
+      <a href="/category" style="color: #2d3748; text-decoration: none;">
+        <img src="https://res.cloudinary.com/dva1s2kwa/images/f_auto,q_auto/v1712562334/The-Top-10-Hardest-IB-Subjects-min/The-Top-10-Hardest-IB-Subjects-min.jpg?_i=AA" height="300px" style="border: 2px solid #e2e8f0; border-radius: 14px;">
+        <h2 style="color: #4a90e2;">Categories</h2>
+        <p style="color: #4a5568;">Explore quizzes in various categories like Science, History, Geography, and more.</p>
+      </a>
+    </div>
+
+    <!-- Features Section -->
+   <!-- Features Section -->
+<div class="section text-center p-5 scroll-section" style="background-color: #ffffff; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); min-height: 450px;">
+  <h2 class="text-success" style="color: #50e3c2; font-size: 28px; font-weight: bold;">🌟 Key Features</h2>
+  <div class="row d-flex justify-content-center mt-4">
+    <div class="col-md-4">
+      <div class="feature-card p-3" style="border-radius: 10px; background: #f0f4f8; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <h4>📝 Multiple Quiz Topics</h4>
+        <p style="color: #4a5568;">Choose from various categories like Science, History, and more.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card p-3" style="border-radius: 10px; background: #f0f4f8; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <h4>⚡ Instant Feedback</h4>
+        <p style="color: #4a5568;">Get real-time answers and explanations after each question.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card p-3" style="border-radius: 10px; background: #f0f4f8; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <h4>📊 Score Tracking</h4>
+        <p style="color: #4a5568;">Monitor your progress and improve with every attempt.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mt-3">
+      <div class="feature-card p-3" style="border-radius: 10px; background: #f0f4f8; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <h4>🏆 Leaderboard</h4>
+        <p style="color: #4a5568;">Compete with friends and rank among top players.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mt-3">
+      <div class="feature-card p-3" style="border-radius: 10px; background: #f0f4f8; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.3s;">
+        <h4>🎨 Interactive Design</h4>
+        <p style="color: #4a5568;">Enjoy a fun, smooth, and engaging quiz experience.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Leaderboard Section -->
+    <div class="section text-center p-5 scroll-section" style="background-color: #ffffff; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);min-height: 450px;">
+      <a href="/" style="color: #2d3748; text-decoration: none;">
+        <img src="https://www.trapdoorescape.com/wp-content/uploads/2022/05/Leaderboard.png" height="300px" style="border: 2px solid #e2e8f0; border-radius: 14px;">
+        <h2 style="color: #4a90e2;">Leaderboard</h2>
+        <p style="color: #4a5568;">Compete with others and see where you stand on the leaderboard.</p>
+
+      </a>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="section text-center p-5 scroll-section" style="background-color: #ffffff; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);min-height: 450px;">
+      <a href="/about" style="color: #2d3748; text-decoration: none;">
+        <img src="https://res.cloudinary.com/dva1s2kwa/images/f_auto,q_auto/v1712562334/The-Top-10-Hardest-IB-Subjects-min/The-Top-10-Hardest-IB-Subjects-min.jpg?_i=AA" height="300px" style="border: 2px solid #e2e8f0; border-radius: 14px;">
+        <h2 style="color: #4a90e2;">About Us</h2>
+        <p style="color: #4a5568;">Learn more about our mission to make learning fun and engaging.</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- GSAP Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Intro animations
+    gsap.from(".start-quiz", { opacity: 0, y: -50, duration: 1, ease: "power2.out" });
+
+    // Scroll animations
+    gsap.utils.toArray(".scroll-section").forEach(section => {
+      gsap.from(section, {
+        opacity: 0,
+        y: 100,
+        duration: 1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: section,
+          start: "top 80%",
+          toggleActions: "play none none none"
+        }
+      });
+    });
+
+    // Hover effect
+    document.querySelectorAll("a div").forEach(section => {
+      section.addEventListener("mouseenter", () => {
+        gsap.to(section, { scale: 1.05, duration: 0.3 });
+      });
+      section.addEventListener("mouseleave", () => {
+        gsap.to(section, { scale: 1, duration: 0.3 });
+      });
+    });
+  </script>
+</body>
